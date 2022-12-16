@@ -7,6 +7,7 @@ public class BalanceService {
     }
 
     public void withdraw(int count) {
+        System.out.println("Withdraw balance");
         balance -= count;
     }
 
